@@ -72,12 +72,12 @@ void drawGameText(int points) {
 
     drawText(
       screen, 10, (screenHeight-BASE_FONT_SIZE+10),
-      "Metrix nightly 2008-08-03", creditsFont, textColor
+      "Metrix 2008", creditsFont, textColor
     );
 
     drawText(
       screen, (screenWidth-(int)(BASE_FONT_SIZE*6.5)), (screenHeight-BASE_FONT_SIZE+10),
-      "visit www.idxsolutions.de", creditsFont, textColor
+      "visit GitHub.com/MKelm", creditsFont, textColor
     );
 
     char strGamePoints[9];
