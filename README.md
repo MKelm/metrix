@@ -10,15 +10,15 @@ Full gameplay with points counter
 + ESC = Quit Game
 
 ## Start parameters
-+ --res NUMBER = Resulution, 0 = 800x600 / 1 = 1024/768 * / 2 = 1280x1024
++ --res NUMBER = Resulution, 0 = 800x600 / 1 = 1024/768 ^1 / 2 = 1280x1024
 + --bpp NUMBER = Display bit-depth, 16 / 24 / 32
-+ --lvl NUMBER = Difficulty, 0 = easy / 1 = medium ** / 2 = hard
++ --lvl NUMBER = Difficulty, 0 = easy / 1 = medium ^2 / 2 = hard
 + --nosound = Deactivate sound support
 + --window = Start in window mode
 + --software = Disable hardware acceleration
 
-(*) Default, the font size is optimized for this resolution
-(**) Default, other values make the game field bigger or smaller
+^1 = Default, the font size is optimized for this resolution
+^2 = Default, other values make the game field bigger or smaller
 
 ## Libary dependencies
 Main libraries:
